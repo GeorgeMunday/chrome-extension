@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "description": "This extension is a starting point for building a Chrome extension.",
+    "version": "1.0.0",
+    "icons": {
+        "32": "greentick.png"
+    },
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "action" : {},
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ]
+}
